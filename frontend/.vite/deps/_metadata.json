@@ -1,0 +1,49 @@
+{
+  "hash": "eacd3395",
+  "configHash": "28b142c3",
+  "lockfileHash": "89b037a3",
+  "browserHash": "4e8d09ab",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "c437904e",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d0167a92",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.mjs",
+      "file": "react-router-dom.js",
+      "fileHash": "06ffc176",
+      "needsInterop": false
+    },
+    "@heroicons/react/24/outline": {
+      "src": "../../node_modules/@heroicons/react/24/outline/esm/index.js",
+      "file": "@heroicons_react_24_outline.js",
+      "fileHash": "7731717e",
+      "needsInterop": false
+    },
+    "axios": {
+      "src": "../../node_modules/axios/index.js",
+      "file": "axios.js",
+      "fileHash": "20cac7e0",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5HNGYYSW": {
+      "file": "chunk-5HNGYYSW.js"
+    },
+    "chunk-TVFQMRVC": {
+      "file": "chunk-TVFQMRVC.js"
+    },
+    "chunk-G3PMV62Z": {
+      "file": "chunk-G3PMV62Z.js"
+    }
+  }
+}
