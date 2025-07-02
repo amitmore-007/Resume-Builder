@@ -64,7 +64,7 @@ const UserRegister = () => {
 
     setLoading(true);
     try {
-      const response = await axios.post('http://localhost:5000/api/users/register', {
+      const response = await axios.post('http://localhost:5100/api/users/register', {
         name: formData.name,
         email: formData.email,
         password: formData.password
@@ -72,7 +72,7 @@ const UserRegister = () => {
       
       localStorage.setItem('token', response.data.token);
       localStorage.setItem('user', JSON.stringify(response.data.user));
-      navigate('/dashboard');
+      navigate('/login');
     } catch (error) {
       setErrors({
         submit: error.response?.data?.msg || 'Registration failed. Please try again.'
